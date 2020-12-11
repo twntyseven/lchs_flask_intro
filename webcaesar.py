@@ -3,9 +3,10 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 app.config['DEBUG'] = True
 
-@app.route('/hex_form', methods=['GET', 'POST'])
-def hex_form():    
-    return render_template('hex_form.html')
+@app.route('/')
+@app.route('/user_message')
+def user_message():    
+    return render_template('user_message.html')
 
 if __name__ == '__main__':
     app.run()

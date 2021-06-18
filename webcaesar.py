@@ -10,3 +10,6 @@ def user_message():
 
 if __name__ == '__main__':
     app.run()
+
+# Instructions for this project can be found here:
+# https://education.launchcode.org/lchs/chapters/flask-intro/project.html
